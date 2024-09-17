@@ -1,6 +1,7 @@
 # YOLO-Based Pipe Counter
 
-This project leverages YOLOv8, a state-of-the-art object detection and segmentation algorithm, to automatically detect and count pipes from images developed by [*Ranit Bhowmick*](https://www.linkedin.com/in/ranitbhowmick/) & [*Sayanti Chatterjee*](https://www.linkedin.com/in/sayantichatterjee/). The system is trained to detect various types of pipes in industrial settings and can be used for monitoring, inspection, and inventory management.
+This project leverages YOLOv8, a state-of-the-art object detection and segmentation algorithm, to automatically detect and count pipes from images. The system is trained to detect various types of pipes in industrial settings and can be used for monitoring, inspection, and inventory management.
+A Project by [*Ranit Bhowmick*](https://www.linkedin.com/in/ranitbhowmick/) & [*Sayanti Chatterjee*](https://www.linkedin.com/in/sayantichatterjee/).
 
 ### Results
 
