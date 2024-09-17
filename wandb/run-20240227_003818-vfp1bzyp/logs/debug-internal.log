@@ -1,0 +1,1356 @@
+2024-02-27 00:38:18,469 INFO    StreamThr :16128 [internal.py:wandb_internal():86] W&B internal server running at pid: 16128, started at: 2024-02-27 00:38:18.469144
+2024-02-27 00:38:18,469 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status
+2024-02-27 00:38:18,482 INFO    WriterThread:16128 [datastore.py:open_for_write():85] open: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\run-vfp1bzyp.wandb
+2024-02-27 00:38:18,482 DEBUG   SenderThread:16128 [sender.py:send():375] send: header
+2024-02-27 00:38:18,487 DEBUG   SenderThread:16128 [sender.py:send():375] send: run
+2024-02-27 00:38:19,396 INFO    SenderThread:16128 [dir_watcher.py:__init__():219] watching files in: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files
+2024-02-27 00:38:19,396 INFO    SenderThread:16128 [sender.py:_start_run_threads():1124] run started: vfp1bzyp with start time 1708974498.469144
+2024-02-27 00:38:19,396 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:38:19,396 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: check_version
+2024-02-27 00:38:19,396 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:38:19,396 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: check_version
+2024-02-27 00:38:19,598 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: run_start
+2024-02-27 00:38:19,636 DEBUG   HandlerThread:16128 [system_info.py:__init__():31] System info init
+2024-02-27 00:38:19,636 DEBUG   HandlerThread:16128 [system_info.py:__init__():46] System info init done
+2024-02-27 00:38:19,636 INFO    HandlerThread:16128 [system_monitor.py:start():181] Starting system monitor
+2024-02-27 00:38:19,636 INFO    SystemMonitor:16128 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-02-27 00:38:19,636 INFO    HandlerThread:16128 [system_monitor.py:probe():201] Collecting system info
+2024-02-27 00:38:19,636 INFO    SystemMonitor:16128 [interfaces.py:start():190] Started cpu monitoring
+2024-02-27 00:38:19,636 INFO    SystemMonitor:16128 [interfaces.py:start():190] Started disk monitoring
+2024-02-27 00:38:19,651 INFO    SystemMonitor:16128 [interfaces.py:start():190] Started gpu monitoring
+2024-02-27 00:38:19,651 INFO    SystemMonitor:16128 [interfaces.py:start():190] Started memory monitoring
+2024-02-27 00:38:19,651 INFO    SystemMonitor:16128 [interfaces.py:start():190] Started network monitoring
+2024-02-27 00:38:19,667 DEBUG   HandlerThread:16128 [system_info.py:probe():195] Probing system
+2024-02-27 00:38:19,667 DEBUG   HandlerThread:16128 [system_info.py:probe():240] Probing system done
+2024-02-27 00:38:19,667 DEBUG   HandlerThread:16128 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.11.2', 'heartbeatAt': '2024-02-26T19:08:19.667288', 'startedAt': '2024-02-26T19:08:18.435334', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'RanitMSI', 'username': 'Ranit Bhowmick', 'executable': 'c:\\Users\\Ranit Bhowmick\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 419.92187118530273, 'used': 392.5779151916504}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.824047088623047}}
+2024-02-27 00:38:19,667 INFO    HandlerThread:16128 [system_monitor.py:probe():211] Finished collecting system info
+2024-02-27 00:38:19,667 INFO    HandlerThread:16128 [system_monitor.py:probe():214] Publishing system info
+2024-02-27 00:38:19,667 DEBUG   HandlerThread:16128 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-27 00:38:19,667 DEBUG   HandlerThread:16128 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-27 00:38:19,667 INFO    HandlerThread:16128 [system_monitor.py:probe():216] Finished publishing system info
+2024-02-27 00:38:19,682 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:38:19,682 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-02-27 00:38:19,698 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:38:19,698 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:38:20,248 DEBUG   SenderThread:16128 [sender.py:send():375] send: telemetry
+2024-02-27 00:38:20,417 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:20,417 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:38:20,417 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\requirements.txt
+2024-02-27 00:38:20,417 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-metadata.json
+2024-02-27 00:38:20,602 INFO    wandb-upload_0:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\0i4lkxok-wandb-metadata.json
+2024-02-27 00:38:22,436 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:22,532 DEBUG   SenderThread:16128 [sender.py:send():375] send: telemetry
+2024-02-27 00:38:22,563 DEBUG   SenderThread:16128 [sender.py:send():375] send: telemetry
+2024-02-27 00:38:22,866 DEBUG   SenderThread:16128 [sender.py:send():375] send: telemetry
+2024-02-27 00:38:23,437 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:23,570 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:38:24,456 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:25,481 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:28,600 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:29,144 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:38:34,452 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:38:34,726 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:38:34,726 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:38:34,773 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:39,886 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:38:40,225 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:41,318 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:45,558 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:38:49,739 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:38:49,742 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:38:51,196 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:38:52,616 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\config.yaml
+2024-02-27 00:38:55,305 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:56,710 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:38:56,710 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:38:56,710 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:38:57,596 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:38:59,877 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:00,958 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:01,490 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:02,376 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:02,548 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:39:02,548 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\labels_1_f3772987eec0f7051b50.jpg with policy now
+2024-02-27 00:39:02,548 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:02,632 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:39:02,632 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\train_batch0_1_50749203685d728dff38.jpg with policy now
+2024-02-27 00:39:02,632 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:03,011 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:39:03,011 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\train_batch1_1_bba641ca133ac1d74e11.jpg with policy now
+2024-02-27 00:39:03,011 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:03,393 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:39:03,393 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\train_batch2_1_879f426e2092042cd7e1.jpg with policy now
+2024-02-27 00:39:03,393 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:03,494 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\labels_1_f3772987eec0f7051b50.jpg
+2024-02-27 00:39:03,494 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch0_1_50749203685d728dff38.jpg
+2024-02-27 00:39:03,494 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch2_1_879f426e2092042cd7e1.jpg
+2024-02-27 00:39:03,494 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch1_1_bba641ca133ac1d74e11.jpg
+2024-02-27 00:39:03,494 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images
+2024-02-27 00:39:03,494 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media
+2024-02-27 00:39:04,015 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:04,200 INFO    wandb-upload_0:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\u84jw6g7-media/images/labels_1_f3772987eec0f7051b50.jpg
+2024-02-27 00:39:05,516 INFO    wandb-upload_2:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\sy42f2ff-media/images/train_batch1_1_bba641ca133ac1d74e11.jpg
+2024-02-27 00:39:05,547 INFO    wandb-upload_1:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\u914xvsg-media/images/train_batch0_1_50749203685d728dff38.jpg
+2024-02-27 00:39:06,096 INFO    wandb-upload_3:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\m4639v68-media/images/train_batch2_1_879f426e2092042cd7e1.jpg
+2024-02-27 00:39:07,662 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:07,779 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:39:07,779 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:39:08,532 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:08,548 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:08,548 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:08,548 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:08,851 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:08,867 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:08,867 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:10,851 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:10,986 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:12,954 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:14,198 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:14,198 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:14,198 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:14,198 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:14,237 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:15,383 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:15,383 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:16,288 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:17,187 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:17,187 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:17,187 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:17,187 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:17,214 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:17,506 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:17,506 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:18,567 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:19,053 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:19,585 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:19,647 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:19,672 DEBUG   SystemMonitor:16128 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-02-27 00:39:19,672 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:39:20,283 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:20,285 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:20,286 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:20,286 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:21,231 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:21,250 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:21,250 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:22,248 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:22,289 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:23,201 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:39:23,201 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:39:23,330 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:23,805 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:23,805 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:23,805 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:23,805 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:23,840 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:23,884 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:24,386 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:24,387 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:25,451 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:26,149 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:26,503 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:29,683 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:31,913 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:31,915 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:31,957 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:31,957 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:31,973 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:31,973 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:33,022 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:34,053 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:34,137 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:35,009 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:35,081 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:35,569 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:35,569 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:35,569 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:35,582 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:35,598 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:36,171 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:36,171 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:37,198 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:37,748 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:38,287 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:39:38,287 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:39:38,346 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:38,361 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:38,713 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:38,713 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:38,731 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:39,325 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:39,325 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:39,441 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:39,871 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:39,886 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:39,886 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:39,886 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:39,918 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:40,187 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:40,479 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:41,525 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:41,540 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:42,644 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:44,676 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:44,676 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:44,676 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:44,676 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:44,706 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:44,714 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:44,714 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:45,756 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:45,861 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:45,876 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:46,539 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:46,554 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:46,554 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:46,554 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:46,639 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:46,840 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:46,840 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:47,894 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:49,193 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:49,679 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:39:51,457 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:51,495 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:51,912 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:51,928 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:51,928 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:51,928 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:51,928 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:52,241 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:53,264 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:39:53,264 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:39:53,264 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:53,780 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:54,481 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:54,481 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:54,481 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:54,481 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:54,535 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:55,341 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:55,341 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:56,109 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:56,697 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:56,697 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:57,039 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:39:57,095 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:39:57,095 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:39:57,111 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:39:57,415 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:39:57,415 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:39:58,385 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:39:59,454 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:01,010 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:01,010 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:01,010 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:01,010 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:01,033 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:01,544 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:01,544 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:02,094 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:02,377 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:03,477 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:03,477 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:03,477 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:03,477 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:03,512 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:03,594 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:03,594 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:04,416 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:05,486 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:05,487 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:05,487 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:05,487 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:05,539 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:05,625 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:05,625 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:07,045 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:07,778 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:07,795 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:08,259 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:40:08,260 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:40:08,328 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:08,345 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:08,662 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:08,662 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:08,678 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:08,814 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:09,429 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:10,012 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:10,012 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:10,012 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:10,012 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:10,012 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:10,046 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:11,063 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:11,553 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:12,246 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:12,246 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:12,246 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:12,246 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:12,246 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:12,279 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:12,880 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:13,337 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:13,337 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:14,005 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:14,397 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:14,530 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:14,530 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:14,530 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:14,530 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:14,567 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:15,414 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:15,547 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:16,168 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:16,170 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:16,498 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:16,531 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:16,531 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:16,546 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:17,348 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:17,531 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:18,687 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:18,698 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:19,386 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:19,389 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:19,389 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:19,389 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:19,426 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:19,688 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:40:19,715 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:19,715 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:20,315 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:20,732 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:20,865 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:20,865 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:20,865 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:20,865 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:20,948 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:21,765 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:21,765 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:21,899 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:22,533 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:22,548 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:22,548 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:22,548 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:22,571 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:22,966 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:22,966 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:23,283 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:40:23,283 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:40:24,000 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:24,215 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:24,233 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:24,900 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:24,900 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:24,900 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:24,900 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:24,936 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:25,052 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:25,052 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:26,049 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:26,085 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:28,184 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:29,223 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:29,318 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:29,318 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:29,334 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:29,334 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:29,334 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:29,356 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:30,252 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:30,252 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:30,334 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:30,858 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:30,858 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:30,858 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:30,858 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:30,893 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:31,392 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:31,392 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:32,418 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:32,552 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:33,452 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:34,469 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:34,469 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:35,269 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:35,269 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:35,269 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:35,269 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:35,306 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:35,518 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:35,518 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:36,203 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:36,570 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:36,736 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:36,736 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:37,155 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:37,155 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:37,165 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:37,587 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:37,587 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:37,858 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:38,303 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:40:38,303 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:40:38,420 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:38,420 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:38,638 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:38,737 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:38,737 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:38,769 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:39,671 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:39,671 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:39,772 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:40,687 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:42,938 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:43,807 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:44,790 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:45,028 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:45,028 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:45,028 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:45,028 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:45,055 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:45,993 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:45,993 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:46,294 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:47,011 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:47,011 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:47,011 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:47,011 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:47,056 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:47,096 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:48,230 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:48,608 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:49,477 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:49,477 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:49,477 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:49,477 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:49,605 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:49,943 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:40:49,944 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:50,308 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:50,308 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:50,811 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:51,596 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:51,598 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:51,599 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:51,599 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:51,600 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:40:52,391 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:52,392 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:52,841 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:53,310 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:40:55,157 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:40:55,974 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:40:56,943 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:57,460 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:57,460 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:40:57,460 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:40:57,460 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:40:59,110 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:40:59,118 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:40:59,759 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:00,245 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:00,248 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:00,282 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:00,612 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:00,615 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:00,615 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:00,615 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:00,940 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:01,302 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:02,325 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:03,966 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:04,372 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:04,655 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:04,655 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:05,062 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:05,062 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:05,064 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:05,283 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:05,295 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:05,382 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:05,760 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:05,760 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:05,760 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:05,760 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:05,779 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:06,479 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:06,480 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:06,641 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:07,299 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:07,309 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:07,309 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:07,309 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:07,316 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:07,529 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:08,311 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:41:08,311 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:41:08,327 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:08,595 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:08,934 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:08,937 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:10,144 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:10,661 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:11,003 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:11,005 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:14,314 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:14,354 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:41:14,788 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:14,790 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:15,628 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:15,629 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:15,629 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:16,366 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:16,366 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:16,366 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:16,366 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:16,366 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:16,366 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:16,366 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:16,366 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:16,366 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:18,393 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:19,851 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:41:20,867 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:23,302 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:41:23,302 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:41:26,476 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:26,601 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:26,614 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:27,139 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:27,139 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:27,139 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:27,139 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:27,155 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:27,482 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:28,171 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:28,485 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:28,649 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:28,651 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:28,651 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:28,652 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:28,652 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:29,493 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:29,628 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:30,190 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:30,190 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:30,503 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:30,610 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:30,610 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:30,610 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:31,616 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:31,671 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:32,709 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:32,850 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:33,528 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:33,530 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:33,531 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:33,531 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:33,716 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:35,974 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:35,975 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:36,988 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:38,566 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:41:38,566 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:41:39,037 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:40,538 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:40,985 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:40,990 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:40,990 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:40,991 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:41,008 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:41,052 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:41,869 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:42,023 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:42,477 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:42,480 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:42,480 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:42,480 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:42,532 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:43,091 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:43,091 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:45,839 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:47,563 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:49,863 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:41:52,358 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:53,174 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:41:53,607 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:41:53,608 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:41:53,620 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:54,058 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:54,059 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:54,060 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:54,060 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:54,061 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:54,379 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:54,618 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:55,077 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:55,079 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:55,079 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:55,079 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:55,080 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:55,396 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:55,775 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:56,388 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:56,391 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:56,391 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:56,392 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:56,393 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:56,416 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:56,417 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:57,209 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:57,702 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:57,704 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:57,705 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:41:57,705 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:41:57,744 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:41:58,471 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:41:58,471 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:41:59,016 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:41:59,026 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:00,549 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:01,891 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:01,899 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:01,901 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:01,901 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:01,908 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:02,692 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:02,692 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:03,476 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:04,125 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:04,275 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:04,277 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:04,278 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:04,278 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:04,304 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:04,821 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:04,821 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:06,856 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:08,616 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:42:08,617 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:42:10,081 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:11,858 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:12,419 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:12,419 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:12,419 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:12,427 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:12,806 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:12,965 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:12,965 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:13,205 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:13,773 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:13,773 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:13,773 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:13,773 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:13,773 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:13,997 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:14,600 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:15,053 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:15,197 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:15,218 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:15,220 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:15,220 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:15,220 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:15,255 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:16,088 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:16,752 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:17,131 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:17,356 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:17,356 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:17,356 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:17,356 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:17,383 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:18,153 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:18,814 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:19,198 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:19,454 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:19,470 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:19,470 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:19,470 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:19,489 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:19,874 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:42:20,217 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:20,954 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:21,136 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:21,243 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:23,438 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:23,438 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:23,438 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:23,438 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:23,469 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:23,629 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:42:23,629 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:42:24,304 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:25,354 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:26,149 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:28,387 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:28,966 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:28,966 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:28,966 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:28,966 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:29,457 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:29,457 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:30,854 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:31,502 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:31,674 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:31,689 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:32,190 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:32,190 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:32,190 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:32,190 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:32,224 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:32,535 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:33,562 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:33,725 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:34,242 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:34,257 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:34,257 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:34,257 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:34,257 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:34,610 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:35,621 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:35,640 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:36,289 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:36,289 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:36,289 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:36,289 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:36,304 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:36,655 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:37,709 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:37,709 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:37,710 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:38,259 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:38,259 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:38,259 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:38,259 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:38,290 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:38,648 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:42:38,648 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:42:38,757 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:38,757 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:39,524 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:40,060 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:40,063 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:40,065 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:40,065 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:40,068 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:40,068 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:40,076 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:41,088 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:42,157 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:43,176 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:45,192 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:45,610 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:46,187 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:46,187 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:46,187 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:46,187 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:46,278 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:46,298 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:47,343 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:48,512 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:48,523 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:49,126 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:49,128 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:49,128 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:49,129 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:49,160 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:49,411 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:49,411 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:49,906 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:42:50,173 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:50,921 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:50,921 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:50,921 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:50,921 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:50,959 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:51,524 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:51,524 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:51,995 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:52,612 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:52,612 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:52,612 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:52,612 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:52,657 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:53,679 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:53,679 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:53,780 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:42:53,780 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:42:53,942 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:54,148 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:42:54,812 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:54,814 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:54,814 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:54,814 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:54,814 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:54,814 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:55,872 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:56,141 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:56,742 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:56,742 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:42:56,742 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:42:56,742 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:42:56,742 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:42:57,075 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:57,075 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:42:58,110 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:42:59,798 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:04,844 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:06,277 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:06,901 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:06,901 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:06,901 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:06,901 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:07,335 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:07,376 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:07,379 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:08,101 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:08,405 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:08,766 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:43:08,766 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:43:09,164 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:09,164 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:09,285 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:09,286 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:09,305 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:09,513 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:09,513 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:09,982 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:10,165 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:10,735 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:10,737 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:10,737 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:10,738 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:10,746 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:11,484 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:11,613 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:11,614 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:11,992 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:11,992 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:11,992 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:11,992 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:12,029 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:12,664 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:13,031 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:13,820 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:13,822 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:13,830 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:13,830 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:13,846 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:13,874 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:13,874 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:15,204 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:15,283 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:16,062 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:17,197 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:17,200 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:17,200 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:17,200 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:17,224 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:18,247 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:18,247 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:19,265 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:19,920 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:43:20,926 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:23,783 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:43:23,783 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:43:24,303 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:24,468 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:24,780 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:24,780 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:24,780 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:24,780 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:24,812 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:25,485 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:25,486 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:25,557 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:26,050 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:26,181 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:26,181 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:26,181 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:26,181 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:26,372 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:26,618 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:26,618 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:26,904 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:27,455 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:27,455 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:27,455 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:27,455 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:27,470 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:27,650 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:27,650 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:28,788 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:29,485 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:29,485 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:29,485 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:29,485 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:29,534 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:29,740 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:29,740 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:30,866 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:30,998 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:31,068 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:31,655 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:31,655 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:31,655 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:31,655 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:31,706 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:32,060 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:32,060 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:33,101 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:33,202 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:34,118 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:35,254 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:35,254 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:35,254 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:35,254 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:35,302 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:36,219 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:36,219 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:36,325 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:37,319 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:38,820 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:43:38,820 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:43:41,469 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:41,554 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:41,570 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:42,081 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:42,084 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:42,084 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:42,084 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:42,106 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:42,477 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:43,642 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:43,907 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:44,642 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:44,644 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:44,644 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:44,644 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:44,644 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:44,644 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:44,644 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:45,720 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:45,722 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:46,339 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:46,339 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:46,339 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:46,339 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:46,355 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:46,640 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:46,744 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:47,435 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:47,899 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:47,989 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:47,989 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:47,989 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:43:47,989 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:43:48,011 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:43:48,910 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:43:49,228 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:43:49,953 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:43:49,959 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:43:52,005 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:53,841 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:43:53,841 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:43:57,479 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:43:58,512 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:02,648 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:07,695 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:08,850 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:44:08,850 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:44:13,362 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:16,597 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:16,603 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:16,603 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:16,603 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:16,603 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:17,302 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:17,772 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:17,819 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:17,819 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\train_batch360_91_b88454fe9d6cda7ab5e6.jpg with policy now
+2024-02-27 00:44:17,819 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:17,866 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:17,866 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\train_batch361_91_a41ef0b39e38c2b7f8b6.jpg with policy now
+2024-02-27 00:44:17,866 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:17,905 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:17,905 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\train_batch362_91_da13b12c16d271fb0f68.jpg with policy now
+2024-02-27 00:44:17,905 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:18,333 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:18,333 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch362_91_da13b12c16d271fb0f68.jpg
+2024-02-27 00:44:18,333 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch360_91_b88454fe9d6cda7ab5e6.jpg
+2024-02-27 00:44:18,333 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch361_91_a41ef0b39e38c2b7f8b6.jpg
+2024-02-27 00:44:18,333 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images
+2024-02-27 00:44:18,386 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:18,481 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:18,481 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:18,481 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:18,481 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:18,496 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:19,398 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:19,583 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:19,971 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:44:20,128 INFO    wandb-upload_1:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\r6b40t0o-media/images/train_batch361_91_a41ef0b39e38c2b7f8b6.jpg
+2024-02-27 00:44:20,133 INFO    wandb-upload_0:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\clj7oik0-media/images/train_batch360_91_b88454fe9d6cda7ab5e6.jpg
+2024-02-27 00:44:20,352 INFO    wandb-upload_2:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\f4d8v8u3-media/images/train_batch362_91_da13b12c16d271fb0f68.jpg
+2024-02-27 00:44:20,415 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:22,469 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:23,764 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:23,853 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:44:23,853 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:44:24,547 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:24,547 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:24,547 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:24,547 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:25,086 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:25,090 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:25,555 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:26,044 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:26,045 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:26,045 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:26,045 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:26,151 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:26,151 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:26,199 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:27,217 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:27,768 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:28,271 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:28,822 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:29,320 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:30,353 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:31,617 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:31,617 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:31,617 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:31,617 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:31,652 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:32,371 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:32,387 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:32,872 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:33,497 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:33,497 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:33,497 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:33,497 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:33,554 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:33,803 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:34,517 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:34,517 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:35,344 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:36,602 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:37,442 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:37,458 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:37,458 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:37,458 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:37,477 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:37,659 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:38,695 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:38,889 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:44:38,889 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:44:38,889 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:39,298 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:39,590 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:40,079 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:40,080 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:40,080 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:40,080 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:40,080 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:40,089 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:41,104 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:41,371 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:42,555 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:43,590 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:44,262 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:44:44,366 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:44,633 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:44,797 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:44,800 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:44,800 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:44,800 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:44,807 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:45,669 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:46,039 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:46,800 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:46,802 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:46,802 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:44:46,803 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:44:46,804 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:46,887 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:44:47,874 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:47,874 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:44:48,925 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:48,960 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:50,007 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:50,008 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:44:51,024 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:53,117 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:53,925 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:44:53,925 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:44:55,164 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:55,456 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:44:58,200 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:44:58,326 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,367 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,367 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\val_batch0_labels_100_901f204248ff509b1d5e.jpg with policy now
+2024-02-27 00:44:58,367 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,405 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,405 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\val_batch0_pred_100_5a921fa365110dbeb23f.jpg with policy now
+2024-02-27 00:44:58,405 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,430 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,430 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,430 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\val_batch1_labels_100_ff4bc93f14b4cf4c9997.jpg with policy now
+2024-02-27 00:44:58,470 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,470 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\val_batch1_pred_100_cc08a6cbfaecfad40151.jpg with policy now
+2024-02-27 00:44:58,470 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,513 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,513 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\PR_curve_100_cabace2f2bdffcbe4038.png with policy now
+2024-02-27 00:44:58,513 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,560 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,560 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\F1_curve_100_c4cb8625280252261ffb.png with policy now
+2024-02-27 00:44:58,560 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,612 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,612 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\P_curve_100_8ea5429eab0b492e1930.png with policy now
+2024-02-27 00:44:58,613 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,654 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,654 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\R_curve_100_c5dbdf3925cce854e39d.png with policy now
+2024-02-27 00:44:58,654 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,745 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,745 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\confusion_matrix_normalized_100_a2d422901799a5aea92e.png with policy now
+2024-02-27 00:44:58,745 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:58,827 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:44:58,827 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\confusion_matrix_100_fa5911bf862bd54ef80e.png with policy now
+2024-02-27 00:44:58,827 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:44:59,213 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\confusion_matrix_normalized_100_a2d422901799a5aea92e.png
+2024-02-27 00:44:59,213 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\val_batch1_labels_100_ff4bc93f14b4cf4c9997.jpg
+2024-02-27 00:44:59,214 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\F1_curve_100_c4cb8625280252261ffb.png
+2024-02-27 00:44:59,214 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\R_curve_100_c5dbdf3925cce854e39d.png
+2024-02-27 00:44:59,214 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\val_batch1_pred_100_cc08a6cbfaecfad40151.jpg
+2024-02-27 00:44:59,214 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\val_batch0_labels_100_901f204248ff509b1d5e.jpg
+2024-02-27 00:44:59,215 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\val_batch0_pred_100_5a921fa365110dbeb23f.jpg
+2024-02-27 00:44:59,215 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\P_curve_100_8ea5429eab0b492e1930.png
+2024-02-27 00:44:59,215 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\PR_curve_100_cabace2f2bdffcbe4038.png
+2024-02-27 00:44:59,216 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\confusion_matrix_100_fa5911bf862bd54ef80e.png
+2024-02-27 00:44:59,216 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images
+2024-02-27 00:45:00,218 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:45:00,227 INFO    wandb-upload_9:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\o7rbuud4-media/images/confusion_matrix_100_fa5911bf862bd54ef80e.png
+2024-02-27 00:45:00,227 INFO    wandb-upload_8:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\mdp16now-media/images/confusion_matrix_normalized_100_a2d422901799a5aea92e.png
+2024-02-27 00:45:00,260 INFO    wandb-upload_4:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\emlnc9y8-media/images/PR_curve_100_cabace2f2bdffcbe4038.png
+2024-02-27 00:45:00,314 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:45:00,314 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\images\results_100_a57f79738d3274f258a0.png with policy now
+2024-02-27 00:45:00,314 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:45:00,381 INFO    wandb-upload_6:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\9yyur56n-media/images/P_curve_100_8ea5429eab0b492e1930.png
+2024-02-27 00:45:00,393 INFO    wandb-upload_7:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\ilhr2alh-media/images/R_curve_100_c5dbdf3925cce854e39d.png
+2024-02-27 00:45:00,531 INFO    wandb-upload_5:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\tommm4t2-media/images/F1_curve_100_c4cb8625280252261ffb.png
+2024-02-27 00:45:00,579 INFO    wandb-upload_3:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\ctqqs64t-media/images/val_batch0_labels_100_901f204248ff509b1d5e.jpg
+2024-02-27 00:45:00,718 INFO    wandb-upload_0:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\q8ws6l3x-media/images/val_batch0_pred_100_5a921fa365110dbeb23f.jpg
+2024-02-27 00:45:00,763 INFO    wandb-upload_1:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\o2kpw804-media/images/val_batch1_labels_100_ff4bc93f14b4cf4c9997.jpg
+2024-02-27 00:45:00,864 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:45:00,864 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:45:01,194 INFO    wandb-upload_2:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\qs9sutwe-media/images/val_batch1_pred_100_cc08a6cbfaecfad40151.jpg
+2024-02-27 00:45:01,231 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\results_100_a57f79738d3274f258a0.png
+2024-02-27 00:45:01,231 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images
+2024-02-27 00:45:01,414 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:45:01,463 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:45:01,993 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:45:01,997 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:45:02,227 INFO    wandb-upload_9:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\q8bl6eqm-media/images/results_100_a57f79738d3274f258a0.png
+2024-02-27 00:45:02,244 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves\Precision-Recall(B)_table_100_f5a77ac834a6acd9b1af.table.json
+2024-02-27 00:45:02,245 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves\F1-Confidence(B)_table_100_bcb9256a9600d09d6f8c.table.json
+2024-02-27 00:45:02,245 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media
+2024-02-27 00:45:02,245 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves
+2024-02-27 00:45:02,245 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table
+2024-02-27 00:45:02,530 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:45:02,552 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:45:03,113 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:45:03,145 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:45:03,267 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves\Precision-Confidence(B)_table_100_768d2e5772621481a8c3.table.json
+2024-02-27 00:45:03,267 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves\Recall-Confidence(B)_table_100_83e8e86bd7caa6d9ddbe.table.json
+2024-02-27 00:45:03,267 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves
+2024-02-27 00:45:04,149 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-27 00:45:05,762 INFO    wandb-upload_4:16128 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmpflo4srky
+2024-02-27 00:45:07,007 INFO    SenderThread:16128 [sender.py:send_request_log_artifact():1438] logged artifact run_vfp1bzyp_model - {'id': 'QXJ0aWZhY3Q6NzMyNDE5MTQ0', 'digest': '8aacdaf4d3575beab8afcbebe4fb33f3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzI0MjEyMQ==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:45:07,007 DEBUG   SenderThread:16128 [sender.py:send():375] send: config
+2024-02-27 00:45:07,007 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:45:07,009 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:45:09,049 INFO    wandb-upload_6:16128 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmpxmya4vbs
+2024-02-27 00:45:09,193 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:45:10,297 INFO    SenderThread:16128 [sender.py:send_request_log_artifact():1438] logged artifact run-vfp1bzyp-curvesPrecisionRecallB_table - {'id': 'QXJ0aWZhY3Q6NzMyNDE5MjM0', 'digest': 'db27b640b5515982edcfd8ec1164c5b0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzI0MjE2OQ==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:45:10,297 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:45:10,297 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\table\curves/Precision-Recall(B)_table_100_f5a77ac834a6acd9b1af.table.json with policy now
+2024-02-27 00:45:10,311 DEBUG   SenderThread:16128 [sender.py:send():375] send: config
+2024-02-27 00:45:10,311 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:45:11,066 INFO    wandb-upload_5:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\m39k801n-media/table/curves/Precision-Recall(B)_table_100_f5a77ac834a6acd9b1af.table.json
+2024-02-27 00:45:12,410 INFO    wandb-upload_0:16128 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmpzw3kj8a6
+2024-02-27 00:45:13,650 INFO    SenderThread:16128 [sender.py:send_request_log_artifact():1438] logged artifact run-vfp1bzyp-curvesF1ConfidenceB_table - {'id': 'QXJ0aWZhY3Q6NzMyNDE5MjY5', 'digest': '71aa15c439a4bb8d4bcadd3cf76f08de', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzI0MjE3Ng==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:45:13,650 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:45:13,650 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\table\curves/F1-Confidence(B)_table_100_bcb9256a9600d09d6f8c.table.json with policy now
+2024-02-27 00:45:13,650 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:45:13,650 DEBUG   SenderThread:16128 [sender.py:send():375] send: config
+2024-02-27 00:45:13,650 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:45:14,206 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:45:14,397 INFO    wandb-upload_2:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\of7tbnus-media/table/curves/F1-Confidence(B)_table_100_bcb9256a9600d09d6f8c.table.json
+2024-02-27 00:45:16,740 INFO    wandb-upload_8:16128 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmpwzob1h9p
+2024-02-27 00:45:17,997 INFO    SenderThread:16128 [sender.py:send_request_log_artifact():1438] logged artifact run-vfp1bzyp-curvesPrecisionConfidenceB_table - {'id': 'QXJ0aWZhY3Q6NzMyNDE5MzA5', 'digest': '5a07aa7ec5244d65122f354b912269fb', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzI0MjE4NA==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:45:17,997 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:45:17,997 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\table\curves/Precision-Confidence(B)_table_100_768d2e5772621481a8c3.table.json with policy now
+2024-02-27 00:45:17,997 DEBUG   SenderThread:16128 [sender.py:send():375] send: config
+2024-02-27 00:45:17,997 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:45:18,778 INFO    wandb-upload_7:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\tmu9b02c-media/table/curves/Precision-Confidence(B)_table_100_768d2e5772621481a8c3.table.json
+2024-02-27 00:45:19,242 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:45:20,116 INFO    wandb-upload_3:16128 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmppfdfhhln
+2024-02-27 00:45:21,385 INFO    SenderThread:16128 [sender.py:send_request_log_artifact():1438] logged artifact run-vfp1bzyp-curvesRecallConfidenceB_table - {'id': 'QXJ0aWZhY3Q6NzMyNDE5MzU5', 'digest': 'ee04dfb76b0013f3bd37499fa06cf658', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzI0MjE5NA==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:45:21,385 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:45:21,850 DEBUG   SenderThread:16128 [sender.py:send():375] send: files
+2024-02-27 00:45:21,850 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file media\table\curves/Recall-Confidence(B)_table_100_83e8e86bd7caa6d9ddbe.table.json with policy now
+2024-02-27 00:45:21,850 DEBUG   SenderThread:16128 [sender.py:send():375] send: telemetry
+2024-02-27 00:45:21,850 DEBUG   SenderThread:16128 [sender.py:send():375] send: exit
+2024-02-27 00:45:21,850 INFO    SenderThread:16128 [sender.py:send_exit():598] handling exit code: 0
+2024-02-27 00:45:21,850 INFO    SenderThread:16128 [sender.py:send_exit():600] handling runtime: 403
+2024-02-27 00:45:21,850 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:45:21,850 INFO    SenderThread:16128 [sender.py:send_exit():606] send defer
+2024-02-27 00:45:21,850 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: poll_exit
+2024-02-27 00:45:21,850 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:45:21,850 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:21,850 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 0
+2024-02-27 00:45:21,850 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:21,850 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-02-27 00:45:21,850 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 1
+2024-02-27 00:45:21,850 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:21,850 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 1
+2024-02-27 00:45:21,850 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:21,850 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-02-27 00:45:21,850 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 2
+2024-02-27 00:45:21,850 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:21,850 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 2
+2024-02-27 00:45:21,850 INFO    HandlerThread:16128 [system_monitor.py:finish():190] Stopping system monitor
+2024-02-27 00:45:21,865 INFO    HandlerThread:16128 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-27 00:45:21,865 DEBUG   SystemMonitor:16128 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-02-27 00:45:21,865 INFO    HandlerThread:16128 [interfaces.py:finish():202] Joined disk monitor
+2024-02-27 00:45:21,865 DEBUG   SystemMonitor:16128 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-02-27 00:45:21,881 INFO    HandlerThread:16128 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-27 00:45:21,881 INFO    HandlerThread:16128 [interfaces.py:finish():202] Joined memory monitor
+2024-02-27 00:45:21,881 INFO    HandlerThread:16128 [interfaces.py:finish():202] Joined network monitor
+2024-02-27 00:45:21,881 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:21,881 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-02-27 00:45:21,881 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 3
+2024-02-27 00:45:21,881 DEBUG   SenderThread:16128 [sender.py:send():375] send: stats
+2024-02-27 00:45:21,881 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:21,881 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 3
+2024-02-27 00:45:21,896 DEBUG   SenderThread:16128 [sender.py:send():375] send: history
+2024-02-27 00:45:21,896 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:45:21,912 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:45:21,912 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:21,912 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-02-27 00:45:21,912 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 4
+2024-02-27 00:45:21,912 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:21,912 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 4
+2024-02-27 00:45:21,912 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:21,912 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-02-27 00:45:21,912 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 5
+2024-02-27 00:45:21,912 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:21,912 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 5
+2024-02-27 00:45:21,915 DEBUG   SenderThread:16128 [sender.py:send():375] send: summary
+2024-02-27 00:45:21,915 INFO    SenderThread:16128 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:45:21,916 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:21,916 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-02-27 00:45:21,916 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 6
+2024-02-27 00:45:21,916 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:21,916 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 6
+2024-02-27 00:45:21,916 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:21,916 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-02-27 00:45:21,918 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:45:22,280 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 7
+2024-02-27 00:45:22,280 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:22,280 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 7
+2024-02-27 00:45:22,280 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:22,280 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-02-27 00:45:22,466 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:45:22,466 INFO    Thread-12 :16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\config.yaml
+2024-02-27 00:45:22,665 INFO    wandb-upload_1:16128 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp866attydwandb\fng7bkrr-media/table/curves/Recall-Confidence(B)_table_100_83e8e86bd7caa6d9ddbe.table.json
+2024-02-27 00:45:24,249 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:45:25,044 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 8
+2024-02-27 00:45:25,044 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:25,044 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 8
+2024-02-27 00:45:25,044 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:25,044 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-02-27 00:45:25,133 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 9
+2024-02-27 00:45:25,133 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:25,133 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 9
+2024-02-27 00:45:25,133 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:25,133 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-02-27 00:45:25,133 INFO    SenderThread:16128 [dir_watcher.py:finish():365] shutting down directory watcher
+2024-02-27 00:45:25,484 INFO    SenderThread:16128 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:45:25,484 INFO    SenderThread:16128 [dir_watcher.py:finish():395] scan: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files
+2024-02-27 00:45:25,484 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\config.yaml config.yaml
+2024-02-27 00:45:25,484 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log output.log
+2024-02-27 00:45:25,486 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\requirements.txt requirements.txt
+2024-02-27 00:45:25,486 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-metadata.json wandb-metadata.json
+2024-02-27 00:45:25,487 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json wandb-summary.json
+2024-02-27 00:45:25,491 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\confusion_matrix_100_fa5911bf862bd54ef80e.png media\images\confusion_matrix_100_fa5911bf862bd54ef80e.png
+2024-02-27 00:45:25,491 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\confusion_matrix_normalized_100_a2d422901799a5aea92e.png media\images\confusion_matrix_normalized_100_a2d422901799a5aea92e.png
+2024-02-27 00:45:25,491 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\F1_curve_100_c4cb8625280252261ffb.png media\images\F1_curve_100_c4cb8625280252261ffb.png
+2024-02-27 00:45:25,491 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\labels_1_f3772987eec0f7051b50.jpg media\images\labels_1_f3772987eec0f7051b50.jpg
+2024-02-27 00:45:25,491 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\PR_curve_100_cabace2f2bdffcbe4038.png media\images\PR_curve_100_cabace2f2bdffcbe4038.png
+2024-02-27 00:45:25,491 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\P_curve_100_8ea5429eab0b492e1930.png media\images\P_curve_100_8ea5429eab0b492e1930.png
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\results_100_a57f79738d3274f258a0.png media\images\results_100_a57f79738d3274f258a0.png
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\R_curve_100_c5dbdf3925cce854e39d.png media\images\R_curve_100_c5dbdf3925cce854e39d.png
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch0_1_50749203685d728dff38.jpg media\images\train_batch0_1_50749203685d728dff38.jpg
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch1_1_bba641ca133ac1d74e11.jpg media\images\train_batch1_1_bba641ca133ac1d74e11.jpg
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch2_1_879f426e2092042cd7e1.jpg media\images\train_batch2_1_879f426e2092042cd7e1.jpg
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch360_91_b88454fe9d6cda7ab5e6.jpg media\images\train_batch360_91_b88454fe9d6cda7ab5e6.jpg
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch361_91_a41ef0b39e38c2b7f8b6.jpg media\images\train_batch361_91_a41ef0b39e38c2b7f8b6.jpg
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\train_batch362_91_da13b12c16d271fb0f68.jpg media\images\train_batch362_91_da13b12c16d271fb0f68.jpg
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\val_batch0_labels_100_901f204248ff509b1d5e.jpg media\images\val_batch0_labels_100_901f204248ff509b1d5e.jpg
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\val_batch0_pred_100_5a921fa365110dbeb23f.jpg media\images\val_batch0_pred_100_5a921fa365110dbeb23f.jpg
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\val_batch1_labels_100_ff4bc93f14b4cf4c9997.jpg media\images\val_batch1_labels_100_ff4bc93f14b4cf4c9997.jpg
+2024-02-27 00:45:25,492 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\images\val_batch1_pred_100_cc08a6cbfaecfad40151.jpg media\images\val_batch1_pred_100_cc08a6cbfaecfad40151.jpg
+2024-02-27 00:45:25,493 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves\F1-Confidence(B)_table_100_bcb9256a9600d09d6f8c.table.json media\table\curves\F1-Confidence(B)_table_100_bcb9256a9600d09d6f8c.table.json
+2024-02-27 00:45:25,493 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves\Precision-Confidence(B)_table_100_768d2e5772621481a8c3.table.json media\table\curves\Precision-Confidence(B)_table_100_768d2e5772621481a8c3.table.json
+2024-02-27 00:45:25,493 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves\Precision-Recall(B)_table_100_f5a77ac834a6acd9b1af.table.json media\table\curves\Precision-Recall(B)_table_100_f5a77ac834a6acd9b1af.table.json
+2024-02-27 00:45:25,493 INFO    SenderThread:16128 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\media\table\curves\Recall-Confidence(B)_table_100_83e8e86bd7caa6d9ddbe.table.json media\table\curves\Recall-Confidence(B)_table_100_83e8e86bd7caa6d9ddbe.table.json
+2024-02-27 00:45:25,493 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 10
+2024-02-27 00:45:25,493 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:25,493 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 10
+2024-02-27 00:45:25,493 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:25,493 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-02-27 00:45:25,493 INFO    SenderThread:16128 [file_pusher.py:finish():167] shutting down file pusher
+2024-02-27 00:45:26,302 INFO    wandb-upload_9:16128 [upload_job.py:push():137] Uploaded file e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\config.yaml
+2024-02-27 00:45:26,333 INFO    wandb-upload_6:16128 [upload_job.py:push():137] Uploaded file e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\requirements.txt
+2024-02-27 00:45:26,449 INFO    wandb-upload_4:16128 [upload_job.py:push():137] Uploaded file e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\output.log
+2024-02-27 00:45:26,966 INFO    wandb-upload_5:16128 [upload_job.py:push():137] Uploaded file e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\files\wandb-summary.json
+2024-02-27 00:45:27,182 INFO    Thread-11 (_thread_body):16128 [sender.py:transition_state():626] send defer: 11
+2024-02-27 00:45:27,183 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:27,183 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 11
+2024-02-27 00:45:27,183 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:27,183 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-02-27 00:45:27,183 INFO    SenderThread:16128 [file_pusher.py:join():172] waiting for file pusher
+2024-02-27 00:45:27,183 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 12
+2024-02-27 00:45:27,184 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:27,184 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 12
+2024-02-27 00:45:27,184 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:45:27,184 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:27,184 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-02-27 00:45:28,333 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 13
+2024-02-27 00:45:28,333 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:28,333 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 13
+2024-02-27 00:45:28,333 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:28,333 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-02-27 00:45:28,333 INFO    SenderThread:16128 [sender.py:transition_state():626] send defer: 14
+2024-02-27 00:45:28,333 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:45:28,333 INFO    HandlerThread:16128 [handler.py:handle_request_defer():170] handle defer: 14
+2024-02-27 00:45:28,333 DEBUG   SenderThread:16128 [sender.py:send():375] send: final
+2024-02-27 00:45:28,333 DEBUG   SenderThread:16128 [sender.py:send():375] send: footer
+2024-02-27 00:45:28,333 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:45:28,333 INFO    SenderThread:16128 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-02-27 00:45:28,333 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-27 00:45:28,333 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: server_info
+2024-02-27 00:45:28,333 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: get_summary
+2024-02-27 00:45:28,350 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: sampled_history
+2024-02-27 00:45:28,350 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: poll_exit
+2024-02-27 00:45:28,350 DEBUG   SenderThread:16128 [sender.py:send_request():402] send_request: server_info
+2024-02-27 00:45:28,686 DEBUG   HandlerThread:16128 [handler.py:handle_request():144] handle_request: shutdown
+2024-02-27 00:45:28,686 INFO    HandlerThread:16128 [handler.py:finish():842] shutting down handler
+2024-02-27 00:45:29,349 INFO    WriterThread:16128 [datastore.py:close():298] close: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003818-vfp1bzyp\run-vfp1bzyp.wandb
+2024-02-27 00:45:29,699 INFO    SenderThread:16128 [sender.py:finish():1550] shutting down sender
+2024-02-27 00:45:29,700 INFO    SenderThread:16128 [file_pusher.py:finish():167] shutting down file pusher
+2024-02-27 00:45:29,700 INFO    SenderThread:16128 [file_pusher.py:join():172] waiting for file pusher

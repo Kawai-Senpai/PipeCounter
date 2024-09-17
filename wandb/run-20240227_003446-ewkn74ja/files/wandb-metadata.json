@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.11.2",
+    "heartbeatAt": "2024-02-26T19:04:47.385748",
+    "startedAt": "2024-02-26T19:04:46.175191",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "e:\\Python and AI\\Deep Learning\\Yolo\\Untitled-1.py",
+    "codePath": "Untitled-1.py",
+    "host": "RanitMSI",
+    "username": "Ranit Bhowmick",
+    "executable": "C:\\Users\\Ranit Bhowmick\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0,
+        "min": 0.0,
+        "max": 2592.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 2592.0
+        }
+    ],
+    "disk": {
+        "total": 419.92187118530273,
+        "used": 392.5552864074707
+    },
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.824047088623047
+    }
+}

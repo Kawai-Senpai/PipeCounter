@@ -1,0 +1,99 @@
+2024-02-27 00:34:46,193 INFO    StreamThr :17444 [internal.py:wandb_internal():86] W&B internal server running at pid: 17444, started at: 2024-02-27 00:34:46.193976
+2024-02-27 00:34:46,194 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: status
+2024-02-27 00:34:46,195 INFO    WriterThread:17444 [datastore.py:open_for_write():85] open: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003446-ewkn74ja\run-ewkn74ja.wandb
+2024-02-27 00:34:46,200 DEBUG   SenderThread:17444 [sender.py:send():375] send: header
+2024-02-27 00:34:46,200 DEBUG   SenderThread:17444 [sender.py:send():375] send: run
+2024-02-27 00:34:47,135 INFO    SenderThread:17444 [dir_watcher.py:__init__():219] watching files in: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003446-ewkn74ja\files
+2024-02-27 00:34:47,135 INFO    SenderThread:17444 [sender.py:_start_run_threads():1124] run started: ewkn74ja with start time 1708974286.193976
+2024-02-27 00:34:47,135 DEBUG   SenderThread:17444 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:34:47,135 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: check_version
+2024-02-27 00:34:47,135 INFO    SenderThread:17444 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:34:47,135 DEBUG   SenderThread:17444 [sender.py:send_request():402] send_request: check_version
+2024-02-27 00:34:47,335 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: run_start
+2024-02-27 00:34:47,368 DEBUG   HandlerThread:17444 [system_info.py:__init__():31] System info init
+2024-02-27 00:34:47,368 DEBUG   HandlerThread:17444 [system_info.py:__init__():46] System info init done
+2024-02-27 00:34:47,368 INFO    HandlerThread:17444 [system_monitor.py:start():181] Starting system monitor
+2024-02-27 00:34:47,368 INFO    SystemMonitor:17444 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-02-27 00:34:47,368 INFO    HandlerThread:17444 [system_monitor.py:probe():201] Collecting system info
+2024-02-27 00:34:47,369 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started cpu monitoring
+2024-02-27 00:34:47,369 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started disk monitoring
+2024-02-27 00:34:47,369 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started gpu monitoring
+2024-02-27 00:34:47,369 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started memory monitoring
+2024-02-27 00:34:47,385 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started network monitoring
+2024-02-27 00:34:47,385 DEBUG   HandlerThread:17444 [system_info.py:probe():195] Probing system
+2024-02-27 00:34:47,385 DEBUG   HandlerThread:17444 [system_info.py:probe():240] Probing system done
+2024-02-27 00:34:47,385 DEBUG   HandlerThread:17444 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.11.2', 'heartbeatAt': '2024-02-26T19:04:47.385748', 'startedAt': '2024-02-26T19:04:46.175191', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'e:\\Python and AI\\Deep Learning\\Yolo\\Untitled-1.py', 'codePath': 'Untitled-1.py', 'host': 'RanitMSI', 'username': 'Ranit Bhowmick', 'executable': 'C:\\Users\\Ranit Bhowmick\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 419.92187118530273, 'used': 392.5552864074707}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.824047088623047}}
+2024-02-27 00:34:47,385 INFO    HandlerThread:17444 [system_monitor.py:probe():211] Finished collecting system info
+2024-02-27 00:34:47,385 INFO    HandlerThread:17444 [system_monitor.py:probe():214] Publishing system info
+2024-02-27 00:34:47,385 DEBUG   HandlerThread:17444 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-27 00:34:47,385 DEBUG   HandlerThread:17444 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-27 00:34:47,385 INFO    HandlerThread:17444 [system_monitor.py:probe():216] Finished publishing system info
+2024-02-27 00:34:47,402 DEBUG   SenderThread:17444 [sender.py:send():375] send: files
+2024-02-27 00:34:47,402 INFO    SenderThread:17444 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-02-27 00:34:47,417 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:34:47,417 DEBUG   SenderThread:17444 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:34:47,935 DEBUG   SenderThread:17444 [sender.py:send():375] send: telemetry
+2024-02-27 00:34:48,151 INFO    Thread-12 :17444 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003446-ewkn74ja\files\output.log
+2024-02-27 00:34:48,151 INFO    Thread-12 :17444 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003446-ewkn74ja\files\wandb-summary.json
+2024-02-27 00:34:48,151 INFO    Thread-12 :17444 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003446-ewkn74ja\files\requirements.txt
+2024-02-27 00:34:48,151 INFO    Thread-12 :17444 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003446-ewkn74ja\files\wandb-metadata.json
+2024-02-27 00:34:49,163 DEBUG   SenderThread:17444 [sender.py:send():375] send: telemetry
+2024-02-27 00:34:49,173 DEBUG   SenderThread:17444 [sender.py:send():375] send: telemetry
+2024-02-27 00:34:49,255 DEBUG   SenderThread:17444 [sender.py:send():375] send: telemetry
+2024-02-27 00:34:49,519 INFO    wandb-upload_0:17444 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmp4tku8v59wandb\yjsg471q-wandb-metadata.json
+2024-02-27 00:34:50,170 INFO    Thread-12 :17444 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003446-ewkn74ja\files\output.log
+2024-02-27 00:34:51,185 INFO    Thread-12 :17444 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003446-ewkn74ja\files\output.log
+2024-02-27 00:34:51,285 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:34:55,237 INFO    StreamThr :17444 [internal.py:wandb_internal():86] W&B internal server running at pid: 17444, started at: 2024-02-27 00:34:55.237640
+2024-02-27 00:34:55,237 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: status
+2024-02-27 00:34:55,237 INFO    WriterThread:17444 [datastore.py:open_for_write():85] open: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003455-1w107kd4\run-1w107kd4.wandb
+2024-02-27 00:34:55,237 DEBUG   SenderThread:17444 [sender.py:send():375] send: header
+2024-02-27 00:34:55,237 DEBUG   SenderThread:17444 [sender.py:send():375] send: run
+2024-02-27 00:34:56,191 INFO    SenderThread:17444 [dir_watcher.py:__init__():219] watching files in: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003455-1w107kd4\files
+2024-02-27 00:34:56,191 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: check_version
+2024-02-27 00:34:56,220 INFO    SenderThread:17444 [sender.py:_start_run_threads():1124] run started: 1w107kd4 with start time 1708974295.23764
+2024-02-27 00:34:56,220 DEBUG   SenderThread:17444 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:34:56,220 INFO    SenderThread:17444 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:34:56,220 DEBUG   SenderThread:17444 [sender.py:send_request():402] send_request: check_version
+2024-02-27 00:34:56,302 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:34:56,415 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: run_start
+2024-02-27 00:34:56,431 DEBUG   HandlerThread:17444 [system_info.py:__init__():31] System info init
+2024-02-27 00:34:56,431 DEBUG   HandlerThread:17444 [system_info.py:__init__():46] System info init done
+2024-02-27 00:34:56,431 INFO    HandlerThread:17444 [system_monitor.py:start():181] Starting system monitor
+2024-02-27 00:34:56,431 INFO    SystemMonitor:17444 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-02-27 00:34:56,431 INFO    HandlerThread:17444 [system_monitor.py:probe():201] Collecting system info
+2024-02-27 00:34:56,437 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started cpu monitoring
+2024-02-27 00:34:56,437 DEBUG   HandlerThread:17444 [system_info.py:probe():195] Probing system
+2024-02-27 00:34:56,437 DEBUG   HandlerThread:17444 [system_info.py:probe():240] Probing system done
+2024-02-27 00:34:56,437 DEBUG   HandlerThread:17444 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.11.2', 'heartbeatAt': '2024-02-26T19:04:56.437579', 'startedAt': '2024-02-26T19:04:55.137318', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'host': 'RanitMSI', 'username': 'Ranit Bhowmick', 'executable': 'C:\\Users\\Ranit Bhowmick\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 419.92187118530273, 'used': 392.55533599853516}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.824047088623047}}
+2024-02-27 00:34:56,437 INFO    HandlerThread:17444 [system_monitor.py:probe():211] Finished collecting system info
+2024-02-27 00:34:56,437 INFO    HandlerThread:17444 [system_monitor.py:probe():214] Publishing system info
+2024-02-27 00:34:56,437 DEBUG   HandlerThread:17444 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-27 00:34:56,437 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started disk monitoring
+2024-02-27 00:34:56,437 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started gpu monitoring
+2024-02-27 00:34:56,437 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started memory monitoring
+2024-02-27 00:34:56,453 DEBUG   HandlerThread:17444 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-27 00:34:56,453 INFO    SystemMonitor:17444 [interfaces.py:start():190] Started network monitoring
+2024-02-27 00:34:56,453 INFO    HandlerThread:17444 [system_monitor.py:probe():216] Finished publishing system info
+2024-02-27 00:34:56,453 DEBUG   SenderThread:17444 [sender.py:send():375] send: files
+2024-02-27 00:34:56,453 INFO    SenderThread:17444 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-02-27 00:34:56,469 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:34:56,469 DEBUG   SenderThread:17444 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:34:57,005 DEBUG   SenderThread:17444 [sender.py:send():375] send: telemetry
+2024-02-27 00:34:57,199 INFO    Thread-25 :17444 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003455-1w107kd4\files\output.log
+2024-02-27 00:34:57,199 INFO    Thread-25 :17444 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003455-1w107kd4\files\wandb-summary.json
+2024-02-27 00:34:57,199 INFO    Thread-25 :17444 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003455-1w107kd4\files\requirements.txt
+2024-02-27 00:34:57,199 INFO    Thread-25 :17444 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003455-1w107kd4\files\wandb-metadata.json
+2024-02-27 00:34:57,402 INFO    wandb-upload_0:17444 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpjhrhdjo4wandb\ocd8ysfr-wandb-metadata.json
+2024-02-27 00:34:57,694 DEBUG   SenderThread:17444 [sender.py:send():375] send: telemetry
+2024-02-27 00:34:57,704 DEBUG   SenderThread:17444 [sender.py:send():375] send: telemetry
+2024-02-27 00:34:57,770 DEBUG   SenderThread:17444 [sender.py:send():375] send: telemetry
+2024-02-27 00:34:59,216 INFO    Thread-25 :17444 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003455-1w107kd4\files\output.log
+2024-02-27 00:35:00,222 INFO    Thread-25 :17444 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_003455-1w107kd4\files\output.log
+2024-02-27 00:35:00,305 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:35:00,456 INFO    cpu       :17444 [interfaces.py:monitor():140] Process cpu has exited.
+2024-02-27 00:35:00,456 DEBUG   SystemMonitor:17444 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-02-27 00:35:00,456 DEBUG   SystemMonitor:17444 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-02-27 00:35:00,456 DEBUG   SystemMonitor:17444 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-02-27 00:35:00,456 DEBUG   SenderThread:17444 [sender.py:send():375] send: stats
+2024-02-27 00:35:01,350 DEBUG   HandlerThread:17444 [handler.py:handle_request():144] handle_request: status_report

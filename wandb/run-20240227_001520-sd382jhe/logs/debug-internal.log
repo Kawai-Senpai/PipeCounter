@@ -1,0 +1,442 @@
+2024-02-27 00:15:21,002 INFO    StreamThr :8880 [internal.py:wandb_internal():86] W&B internal server running at pid: 8880, started at: 2024-02-27 00:15:21.002617
+2024-02-27 00:15:21,002 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status
+2024-02-27 00:15:21,002 INFO    WriterThread:8880 [datastore.py:open_for_write():85] open: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\run-sd382jhe.wandb
+2024-02-27 00:15:21,002 DEBUG   SenderThread:8880 [sender.py:send():375] send: header
+2024-02-27 00:15:21,002 DEBUG   SenderThread:8880 [sender.py:send():375] send: run
+2024-02-27 00:15:21,949 INFO    SenderThread:8880 [dir_watcher.py:__init__():219] watching files in: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files
+2024-02-27 00:15:21,949 INFO    SenderThread:8880 [sender.py:_start_run_threads():1124] run started: sd382jhe with start time 1708973121.002617
+2024-02-27 00:15:21,949 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:15:21,949 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:15:21,949 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: check_version
+2024-02-27 00:15:21,949 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: check_version
+2024-02-27 00:15:22,150 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: run_start
+2024-02-27 00:15:22,179 DEBUG   HandlerThread:8880 [system_info.py:__init__():31] System info init
+2024-02-27 00:15:22,179 DEBUG   HandlerThread:8880 [system_info.py:__init__():46] System info init done
+2024-02-27 00:15:22,179 INFO    HandlerThread:8880 [system_monitor.py:start():181] Starting system monitor
+2024-02-27 00:15:22,179 INFO    SystemMonitor:8880 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-02-27 00:15:22,179 INFO    HandlerThread:8880 [system_monitor.py:probe():201] Collecting system info
+2024-02-27 00:15:22,179 INFO    SystemMonitor:8880 [interfaces.py:start():190] Started cpu monitoring
+2024-02-27 00:15:22,179 INFO    SystemMonitor:8880 [interfaces.py:start():190] Started disk monitoring
+2024-02-27 00:15:22,179 INFO    SystemMonitor:8880 [interfaces.py:start():190] Started gpu monitoring
+2024-02-27 00:15:22,179 INFO    SystemMonitor:8880 [interfaces.py:start():190] Started memory monitoring
+2024-02-27 00:15:22,196 INFO    SystemMonitor:8880 [interfaces.py:start():190] Started network monitoring
+2024-02-27 00:15:22,197 DEBUG   HandlerThread:8880 [system_info.py:probe():195] Probing system
+2024-02-27 00:15:22,197 DEBUG   HandlerThread:8880 [system_info.py:probe():240] Probing system done
+2024-02-27 00:15:22,197 DEBUG   HandlerThread:8880 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.11.2', 'heartbeatAt': '2024-02-26T18:45:22.197376', 'startedAt': '2024-02-26T18:45:20.979834', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'RanitMSI', 'username': 'Ranit Bhowmick', 'executable': 'c:\\Users\\Ranit Bhowmick\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 419.92187118530273, 'used': 392.5516357421875}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.824047088623047}}
+2024-02-27 00:15:22,197 INFO    HandlerThread:8880 [system_monitor.py:probe():211] Finished collecting system info
+2024-02-27 00:15:22,197 INFO    HandlerThread:8880 [system_monitor.py:probe():214] Publishing system info
+2024-02-27 00:15:22,197 DEBUG   HandlerThread:8880 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-27 00:15:22,197 DEBUG   HandlerThread:8880 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-27 00:15:22,197 INFO    HandlerThread:8880 [system_monitor.py:probe():216] Finished publishing system info
+2024-02-27 00:15:22,213 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:15:22,213 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-02-27 00:15:22,229 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:15:22,229 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:15:22,950 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\wandb-summary.json
+2024-02-27 00:15:22,950 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\requirements.txt
+2024-02-27 00:15:22,950 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\wandb-metadata.json
+2024-02-27 00:15:22,960 DEBUG   SenderThread:8880 [sender.py:send():375] send: telemetry
+2024-02-27 00:15:23,215 INFO    wandb-upload_0:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\3t6qvvgg-wandb-metadata.json
+2024-02-27 00:15:23,484 DEBUG   SenderThread:8880 [sender.py:send():375] send: telemetry
+2024-02-27 00:15:23,499 DEBUG   SenderThread:8880 [sender.py:send():375] send: telemetry
+2024-02-27 00:15:23,584 DEBUG   SenderThread:8880 [sender.py:send():375] send: telemetry
+2024-02-27 00:15:23,951 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:26,008 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:26,382 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:15:29,116 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:31,677 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:15:33,252 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:37,285 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:15:37,435 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:42,281 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:15:42,281 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:15:42,281 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:15:42,283 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:15:46,800 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:47,747 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:15:48,856 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:52,249 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:15:53,877 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:15:53,878 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:53,879 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:15:54,955 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\config.yaml
+2024-02-27 00:15:54,956 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:55,198 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:15:55,199 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:15:56,989 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:59,013 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:15:59,192 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:16:04,252 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:16:07,106 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:16:07,268 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:16:07,268 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 00:16:07,270 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: stop_status
+2024-02-27 00:16:07,832 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:08,925 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:08,925 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\labels_1_f3772987eec0f7051b50.jpg with policy now
+2024-02-27 00:16:08,925 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,045 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,045 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\train_batch1_1_1edab8e9d15e1d171120.jpg with policy now
+2024-02-27 00:16:09,045 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,134 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\labels_1_f3772987eec0f7051b50.jpg
+2024-02-27 00:16:09,134 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\train_batch1_1_1edab8e9d15e1d171120.jpg
+2024-02-27 00:16:09,134 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media
+2024-02-27 00:16:09,134 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images
+2024-02-27 00:16:09,136 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,136 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\train_batch0_1_a6ebdf66fd630b1f6249.jpg with policy now
+2024-02-27 00:16:09,136 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,176 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,176 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\train_batch2_1_8e6f1fd440e6e80db02e.jpg with policy now
+2024-02-27 00:16:09,176 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,196 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,196 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch0_pred_1_5b1d3dc67ed787030579.jpg with policy now
+2024-02-27 00:16:09,196 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,215 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,215 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch1_pred_1_ddc5172ddc9121c993f8.jpg with policy now
+2024-02-27 00:16:09,215 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,227 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,227 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch2_pred_1_21b4057d526ba8413a4b.jpg with policy now
+2024-02-27 00:16:09,227 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,247 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,247 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch2_labels_1_274d3b93a0aa48375f25.jpg with policy now
+2024-02-27 00:16:09,247 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,267 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,267 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,267 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch0_labels_1_6330c1eec86e2ec2fb3c.jpg with policy now
+2024-02-27 00:16:09,267 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:16:09,285 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,285 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,285 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch1_labels_1_90c7057f2f3c098da17a.jpg with policy now
+2024-02-27 00:16:09,319 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,319 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\PR_curve_1_e5ff20979384331f85a9.png with policy now
+2024-02-27 00:16:09,319 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,358 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,358 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\F1_curve_1_1c8d988fbb625668126f.png with policy now
+2024-02-27 00:16:09,358 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,396 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,396 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,396 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\P_curve_1_9044c3e8df01e4c6bb3e.png with policy now
+2024-02-27 00:16:09,428 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,428 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\R_curve_1_f0f86a6ea64e4a9d4052.png with policy now
+2024-02-27 00:16:09,428 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,488 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,496 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\confusion_matrix_normalized_1_0c0dec70839d553e96b5.png with policy now
+2024-02-27 00:16:09,496 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,573 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:09,573 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\confusion_matrix_1_0f3d7cb818d00acdbe78.png with policy now
+2024-02-27 00:16:09,573 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:09,740 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:10,142 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\PR_curve_1_e5ff20979384331f85a9.png
+2024-02-27 00:16:10,143 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\train_batch2_1_8e6f1fd440e6e80db02e.jpg
+2024-02-27 00:16:10,143 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\confusion_matrix_1_0f3d7cb818d00acdbe78.png
+2024-02-27 00:16:10,143 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\R_curve_1_f0f86a6ea64e4a9d4052.png
+2024-02-27 00:16:10,143 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\F1_curve_1_1c8d988fbb625668126f.png
+2024-02-27 00:16:10,143 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch1_labels_1_90c7057f2f3c098da17a.jpg
+2024-02-27 00:16:10,143 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch0_labels_1_6330c1eec86e2ec2fb3c.jpg
+2024-02-27 00:16:10,144 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch0_pred_1_5b1d3dc67ed787030579.jpg
+2024-02-27 00:16:10,144 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch2_pred_1_21b4057d526ba8413a4b.jpg
+2024-02-27 00:16:10,144 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\confusion_matrix_normalized_1_0c0dec70839d553e96b5.png
+2024-02-27 00:16:10,144 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\P_curve_1_9044c3e8df01e4c6bb3e.png
+2024-02-27 00:16:10,144 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\train_batch0_1_a6ebdf66fd630b1f6249.jpg
+2024-02-27 00:16:10,144 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch2_labels_1_274d3b93a0aa48375f25.jpg
+2024-02-27 00:16:10,145 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch1_pred_1_ddc5172ddc9121c993f8.jpg
+2024-02-27 00:16:10,145 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images
+2024-02-27 00:16:10,386 INFO    wandb-upload_0:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\c074n827-media/images/labels_1_f3772987eec0f7051b50.jpg
+2024-02-27 00:16:10,835 INFO    wandb-upload_10:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\i2ww3ndm-media/images/PR_curve_1_e5ff20979384331f85a9.png
+2024-02-27 00:16:11,023 INFO    wandb-upload_3:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\7lkvcpi9-media/images/train_batch2_1_8e6f1fd440e6e80db02e.jpg
+2024-02-27 00:16:11,043 INFO    wandb-upload_1:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\4hycka89-media/images/train_batch1_1_1edab8e9d15e1d171120.jpg
+2024-02-27 00:16:11,100 INFO    wandb-upload_14:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\5q0bg1ax-media/images/confusion_matrix_normalized_1_0c0dec70839d553e96b5.png
+2024-02-27 00:16:11,162 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:16:11,283 INFO    wandb-upload_13:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\s10smdor-media/images/R_curve_1_f0f86a6ea64e4a9d4052.png
+2024-02-27 00:16:11,293 INFO    wandb-upload_11:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\w6pbgoh0-media/images/F1_curve_1_1c8d988fbb625668126f.png
+2024-02-27 00:16:11,324 INFO    wandb-upload_12:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\bjfgma28-media/images/P_curve_1_9044c3e8df01e4c6bb3e.png
+2024-02-27 00:16:11,352 INFO    wandb-upload_2:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\j9gjwss3-media/images/train_batch0_1_a6ebdf66fd630b1f6249.jpg
+2024-02-27 00:16:11,364 INFO    wandb-upload_5:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\v25vbgwd-media/images/val_batch1_pred_1_ddc5172ddc9121c993f8.jpg
+2024-02-27 00:16:11,404 INFO    wandb-upload_15:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\nfpm2syc-media/images/confusion_matrix_1_0f3d7cb818d00acdbe78.png
+2024-02-27 00:16:11,424 INFO    wandb-upload_6:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\yogs4zw4-media/images/val_batch2_pred_1_21b4057d526ba8413a4b.jpg
+2024-02-27 00:16:11,573 INFO    wandb-upload_4:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\dcntfssq-media/images/val_batch0_pred_1_5b1d3dc67ed787030579.jpg
+2024-02-27 00:16:11,583 INFO    wandb-upload_7:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\wmiwy5jt-media/images/val_batch2_labels_1_274d3b93a0aa48375f25.jpg
+2024-02-27 00:16:11,715 INFO    wandb-upload_9:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\trddshqd-media/images/val_batch1_labels_1_90c7057f2f3c098da17a.jpg
+2024-02-27 00:16:11,747 INFO    wandb-upload_8:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\egbpc0zc-media/images/val_batch0_labels_1_6330c1eec86e2ec2fb3c.jpg
+2024-02-27 00:16:13,175 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:16:13,470 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,491 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,491 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,491 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch0_pred_1_5b1d3dc67ed787030579.jpg with policy now
+2024-02-27 00:16:13,503 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,503 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch1_pred_1_ddc5172ddc9121c993f8.jpg with policy now
+2024-02-27 00:16:13,510 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,528 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,528 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch2_pred_1_21b4057d526ba8413a4b.jpg with policy now
+2024-02-27 00:16:13,528 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,552 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,552 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch2_labels_1_274d3b93a0aa48375f25.jpg with policy now
+2024-02-27 00:16:13,552 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,571 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,574 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch0_labels_1_6330c1eec86e2ec2fb3c.jpg with policy now
+2024-02-27 00:16:13,574 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,592 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,592 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\val_batch1_labels_1_90c7057f2f3c098da17a.jpg with policy now
+2024-02-27 00:16:13,592 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,634 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,634 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\PR_curve_1_7c347efb0f3544ab98d1.png with policy now
+2024-02-27 00:16:13,634 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,675 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,675 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\F1_curve_1_4a3e2e6925f8591340a4.png with policy now
+2024-02-27 00:16:13,675 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,715 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,715 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\P_curve_1_96b1aeb022dab347076d.png with policy now
+2024-02-27 00:16:13,715 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,785 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,785 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\R_curve_1_e6d8d4aef81a3985f532.png with policy now
+2024-02-27 00:16:13,785 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,859 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,859 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\confusion_matrix_normalized_1_0c0dec70839d553e96b5.png with policy now
+2024-02-27 00:16:13,859 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:13,936 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:13,936 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\confusion_matrix_1_0f3d7cb818d00acdbe78.png with policy now
+2024-02-27 00:16:13,936 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:14,050 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:14,187 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\confusion_matrix_1_0f3d7cb818d00acdbe78.png
+2024-02-27 00:16:14,187 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch1_labels_1_90c7057f2f3c098da17a.jpg
+2024-02-27 00:16:14,187 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch0_labels_1_6330c1eec86e2ec2fb3c.jpg
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch0_pred_1_5b1d3dc67ed787030579.jpg
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch2_pred_1_21b4057d526ba8413a4b.jpg
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\confusion_matrix_normalized_1_0c0dec70839d553e96b5.png
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch2_labels_1_274d3b93a0aa48375f25.jpg
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch1_pred_1_ddc5172ddc9121c993f8.jpg
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\P_curve_1_96b1aeb022dab347076d.png
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\PR_curve_1_7c347efb0f3544ab98d1.png
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\R_curve_1_e6d8d4aef81a3985f532.png
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\F1_curve_1_4a3e2e6925f8591340a4.png
+2024-02-27 00:16:14,189 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images
+2024-02-27 00:16:14,968 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:16:15,005 INFO    wandb-upload_9:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\drffphi7-media/images/F1_curve_1_4a3e2e6925f8591340a4.png
+2024-02-27 00:16:15,144 INFO    wandb-upload_10:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\0yh8zo4g-media/images/P_curve_1_96b1aeb022dab347076d.png
+2024-02-27 00:16:15,144 INFO    wandb-upload_4:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\z6o3eq34-media/images/PR_curve_1_7c347efb0f3544ab98d1.png
+2024-02-27 00:16:15,146 INFO    wandb-upload_13:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\nppe7mlx-media/images/R_curve_1_e6d8d4aef81a3985f532.png
+2024-02-27 00:16:15,194 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:16:15,367 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:15,367 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\images\results_1_edc9847a698fd1f8d08f.png with policy now
+2024-02-27 00:16:15,367 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:15,514 INFO    wandb-upload_7:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\pdekb4rd-media/images/confusion_matrix_1_0f3d7cb818d00acdbe78.png
+2024-02-27 00:16:15,531 INFO    wandb-upload_0:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\7vrgeehn-media/images/val_batch0_pred_1_5b1d3dc67ed787030579.jpg
+2024-02-27 00:16:15,547 INFO    wandb-upload_14:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\iljqwp6o-media/images/val_batch2_pred_1_21b4057d526ba8413a4b.jpg
+2024-02-27 00:16:15,575 INFO    wandb-upload_3:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\j6pwfmu1-media/images/val_batch1_pred_1_ddc5172ddc9121c993f8.jpg
+2024-02-27 00:16:15,612 INFO    wandb-upload_11:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\7vnoqww5-media/images/val_batch2_labels_1_274d3b93a0aa48375f25.jpg
+2024-02-27 00:16:15,696 INFO    wandb-upload_5:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\kmsnyoom-media/images/confusion_matrix_normalized_1_0c0dec70839d553e96b5.png
+2024-02-27 00:16:15,796 INFO    wandb-upload_15:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\1vipukhw-media/images/val_batch1_labels_1_90c7057f2f3c098da17a.jpg
+2024-02-27 00:16:15,812 INFO    wandb-upload_2:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\q0jvx5ea-media/images/val_batch0_labels_1_6330c1eec86e2ec2fb3c.jpg
+2024-02-27 00:16:15,912 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:16:15,912 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:16:16,213 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\results_1_edc9847a698fd1f8d08f.png
+2024-02-27 00:16:16,213 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images
+2024-02-27 00:16:18,650 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:16:18,664 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:19,196 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:16:19,202 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:19,247 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves\F1-Confidence(B)_table_1_a39c3fda05cbaf2f0c01.table.json
+2024-02-27 00:16:19,247 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves\Precision-Recall(B)_table_1_fde7c032ee15ffb5b328.table.json
+2024-02-27 00:16:19,247 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media
+2024-02-27 00:16:19,247 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table
+2024-02-27 00:16:19,247 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves
+2024-02-27 00:16:19,366 INFO    wandb-upload_1:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\t3tcatz6-media/images/results_1_edc9847a698fd1f8d08f.png
+2024-02-27 00:16:19,735 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:16:19,750 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:20,251 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves\Precision-Confidence(B)_table_1_a941372789d27f587829.table.json
+2024-02-27 00:16:20,251 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves
+2024-02-27 00:16:20,316 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-27 00:16:20,328 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-27 00:16:21,265 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_created():278] file/dir created: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves\Recall-Confidence(B)_table_1_ac0269f0e04e2cd1e78e.table.json
+2024-02-27 00:16:21,265 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves
+2024-02-27 00:16:21,345 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-27 00:16:22,209 DEBUG   SystemMonitor:8880 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-02-27 00:16:22,482 INFO    wandb-upload_6:8880 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmp5_x9_d1e
+2024-02-27 00:16:23,731 INFO    SenderThread:8880 [sender.py:send_request_log_artifact():1438] logged artifact run_sd382jhe_model - {'id': 'QXJ0aWZhY3Q6NzMyMzk0Mzg2', 'digest': '1d1e7a7cff9c611a7bb610316e8b70a3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzIzMjI4NA==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:16:23,731 DEBUG   SenderThread:8880 [sender.py:send():375] send: config
+2024-02-27 00:16:23,731 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:16:23,731 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:16:25,797 INFO    wandb-upload_9:8880 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmpdr2ivq9u
+2024-02-27 00:16:26,350 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:16:27,033 INFO    SenderThread:8880 [sender.py:send_request_log_artifact():1438] logged artifact run-sd382jhe-curvesPrecisionRecallB_table - {'id': 'QXJ0aWZhY3Q6NzMyMzk0NDgw', 'digest': 'e0688817a09382ec11292450e45f9dae', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzIzMjMyNg==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:16:27,033 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:27,033 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\table\curves/Precision-Recall(B)_table_1_fde7c032ee15ffb5b328.table.json with policy now
+2024-02-27 00:16:27,033 DEBUG   SenderThread:8880 [sender.py:send():375] send: config
+2024-02-27 00:16:27,033 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:16:27,894 INFO    wandb-upload_4:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\zizzcp64-media/table/curves/Precision-Recall(B)_table_1_fde7c032ee15ffb5b328.table.json
+2024-02-27 00:16:29,536 INFO    wandb-upload_12:8880 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmp9car1rpw
+2024-02-27 00:16:30,801 INFO    SenderThread:8880 [sender.py:send_request_log_artifact():1438] logged artifact run-sd382jhe-curvesF1ConfidenceB_table - {'id': 'QXJ0aWZhY3Q6NzMyMzk0NTQx', 'digest': '0695eefb6c037d9d583869fa16b8000b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzIzMjM1Ng==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:16:30,801 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:30,801 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\table\curves/F1-Confidence(B)_table_1_a39c3fda05cbaf2f0c01.table.json with policy now
+2024-02-27 00:16:30,801 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:16:30,801 DEBUG   SenderThread:8880 [sender.py:send():375] send: config
+2024-02-27 00:16:30,801 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:16:31,366 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:16:31,589 INFO    wandb-upload_0:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\8vjd6bmv-media/table/curves/F1-Confidence(B)_table_1_a39c3fda05cbaf2f0c01.table.json
+2024-02-27 00:16:32,892 INFO    wandb-upload_3:8880 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmpu8oaz9dh
+2024-02-27 00:16:34,167 INFO    SenderThread:8880 [sender.py:send_request_log_artifact():1438] logged artifact run-sd382jhe-curvesPrecisionConfidenceB_table - {'id': 'QXJ0aWZhY3Q6NzMyMzk0NTc4', 'digest': '5fa5083dcf97e07b99931265dc57db4e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzIzMjM2Nw==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:16:34,167 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:34,167 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\table\curves/Precision-Confidence(B)_table_1_a941372789d27f587829.table.json with policy now
+2024-02-27 00:16:34,167 DEBUG   SenderThread:8880 [sender.py:send():375] send: config
+2024-02-27 00:16:34,167 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: log_artifact
+2024-02-27 00:16:34,987 INFO    wandb-upload_5:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\lv5qmuzx-media/table/curves/Precision-Confidence(B)_table_1_a941372789d27f587829.table.json
+2024-02-27 00:16:36,224 INFO    wandb-upload_2:8880 [upload_job.py:push():95] Uploaded file C:\Users\Ranit Bhowmick\AppData\Local\wandb\wandb\artifacts\staging\tmpjvjicjpa
+2024-02-27 00:16:36,404 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:16:37,498 INFO    SenderThread:8880 [sender.py:send_request_log_artifact():1438] logged artifact run-sd382jhe-curvesRecallConfidenceB_table - {'id': 'QXJ0aWZhY3Q6NzMyMzk0NjIy', 'digest': '9abccabf88c57bb934415ae8b08a4baf', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MzIzMjM3OA==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-27 00:16:37,498 DEBUG   SenderThread:8880 [sender.py:send():375] send: files
+2024-02-27 00:16:37,498 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:16:37,498 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file media\table\curves/Recall-Confidence(B)_table_1_ac0269f0e04e2cd1e78e.table.json with policy now
+2024-02-27 00:16:37,499 DEBUG   SenderThread:8880 [sender.py:send():375] send: telemetry
+2024-02-27 00:16:37,499 DEBUG   SenderThread:8880 [sender.py:send():375] send: exit
+2024-02-27 00:16:37,499 INFO    SenderThread:8880 [sender.py:send_exit():598] handling exit code: 0
+2024-02-27 00:16:37,499 INFO    SenderThread:8880 [sender.py:send_exit():600] handling runtime: 58
+2024-02-27 00:16:37,500 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:16:37,500 INFO    SenderThread:8880 [sender.py:send_exit():606] send defer
+2024-02-27 00:16:37,500 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: poll_exit
+2024-02-27 00:16:37,500 DEBUG   SenderThread:8880 [sender.py:send():375] send: stats
+2024-02-27 00:16:37,500 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:37,500 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 0
+2024-02-27 00:16:37,500 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:37,500 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-02-27 00:16:37,500 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 1
+2024-02-27 00:16:37,500 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:37,500 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 1
+2024-02-27 00:16:37,500 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:37,500 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-02-27 00:16:37,500 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 2
+2024-02-27 00:16:37,500 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:37,500 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 2
+2024-02-27 00:16:37,500 INFO    HandlerThread:8880 [system_monitor.py:finish():190] Stopping system monitor
+2024-02-27 00:16:37,500 DEBUG   SystemMonitor:8880 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-02-27 00:16:37,500 INFO    HandlerThread:8880 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-27 00:16:37,500 DEBUG   SystemMonitor:8880 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-02-27 00:16:37,500 INFO    HandlerThread:8880 [interfaces.py:finish():202] Joined disk monitor
+2024-02-27 00:16:37,535 INFO    HandlerThread:8880 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-27 00:16:37,535 INFO    HandlerThread:8880 [interfaces.py:finish():202] Joined memory monitor
+2024-02-27 00:16:37,535 INFO    HandlerThread:8880 [interfaces.py:finish():202] Joined network monitor
+2024-02-27 00:16:37,535 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:37,535 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-02-27 00:16:37,535 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 3
+2024-02-27 00:16:37,535 DEBUG   SenderThread:8880 [sender.py:send():375] send: stats
+2024-02-27 00:16:37,535 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:37,535 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 3
+2024-02-27 00:16:37,535 DEBUG   SenderThread:8880 [sender.py:send():375] send: history
+2024-02-27 00:16:37,535 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: summary_record
+2024-02-27 00:16:37,535 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:16:37,535 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:37,535 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-02-27 00:16:37,535 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 4
+2024-02-27 00:16:37,535 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:37,535 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 4
+2024-02-27 00:16:37,535 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:37,535 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-02-27 00:16:37,535 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 5
+2024-02-27 00:16:37,535 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:37,535 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 5
+2024-02-27 00:16:37,657 DEBUG   SenderThread:8880 [sender.py:send():375] send: summary
+2024-02-27 00:16:37,658 INFO    SenderThread:8880 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-27 00:16:37,658 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:37,658 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-02-27 00:16:37,658 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 6
+2024-02-27 00:16:37,658 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:37,658 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 6
+2024-02-27 00:16:37,658 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:37,658 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-02-27 00:16:37,660 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 00:16:38,069 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 7
+2024-02-27 00:16:38,069 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:38,069 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 7
+2024-02-27 00:16:38,070 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:38,070 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-02-27 00:16:38,347 INFO    wandb-upload_1:8880 [upload_job.py:push():137] Uploaded file C:\Users\RANITB~1\AppData\Local\Temp\tmpf5ne_cjhwandb\hf9pnpye-media/table/curves/Recall-Confidence(B)_table_1_ac0269f0e04e2cd1e78e.table.json
+2024-02-27 00:16:38,450 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\wandb-summary.json
+2024-02-27 00:16:38,450 INFO    Thread-12 :8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\config.yaml
+2024-02-27 00:16:38,989 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 8
+2024-02-27 00:16:38,989 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:38,989 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 8
+2024-02-27 00:16:38,989 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:38,989 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-02-27 00:16:39,002 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 9
+2024-02-27 00:16:39,002 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:39,002 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 9
+2024-02-27 00:16:39,002 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:39,002 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-02-27 00:16:39,002 INFO    SenderThread:8880 [dir_watcher.py:finish():365] shutting down directory watcher
+2024-02-27 00:16:39,458 INFO    SenderThread:8880 [dir_watcher.py:_on_file_modified():295] file/dir modified: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:16:39,458 INFO    SenderThread:8880 [dir_watcher.py:finish():395] scan: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files
+2024-02-27 00:16:39,458 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\config.yaml config.yaml
+2024-02-27 00:16:39,459 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log output.log
+2024-02-27 00:16:39,460 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\requirements.txt requirements.txt
+2024-02-27 00:16:39,462 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\wandb-metadata.json wandb-metadata.json
+2024-02-27 00:16:39,462 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\wandb-summary.json wandb-summary.json
+2024-02-27 00:16:39,466 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\confusion_matrix_1_0f3d7cb818d00acdbe78.png media\images\confusion_matrix_1_0f3d7cb818d00acdbe78.png
+2024-02-27 00:16:39,466 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\confusion_matrix_normalized_1_0c0dec70839d553e96b5.png media\images\confusion_matrix_normalized_1_0c0dec70839d553e96b5.png
+2024-02-27 00:16:39,466 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\F1_curve_1_1c8d988fbb625668126f.png media\images\F1_curve_1_1c8d988fbb625668126f.png
+2024-02-27 00:16:39,466 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\F1_curve_1_4a3e2e6925f8591340a4.png media\images\F1_curve_1_4a3e2e6925f8591340a4.png
+2024-02-27 00:16:39,466 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\labels_1_f3772987eec0f7051b50.jpg media\images\labels_1_f3772987eec0f7051b50.jpg
+2024-02-27 00:16:39,466 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\PR_curve_1_7c347efb0f3544ab98d1.png media\images\PR_curve_1_7c347efb0f3544ab98d1.png
+2024-02-27 00:16:39,466 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\PR_curve_1_e5ff20979384331f85a9.png media\images\PR_curve_1_e5ff20979384331f85a9.png
+2024-02-27 00:16:39,466 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\P_curve_1_9044c3e8df01e4c6bb3e.png media\images\P_curve_1_9044c3e8df01e4c6bb3e.png
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\P_curve_1_96b1aeb022dab347076d.png media\images\P_curve_1_96b1aeb022dab347076d.png
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\results_1_edc9847a698fd1f8d08f.png media\images\results_1_edc9847a698fd1f8d08f.png
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\R_curve_1_e6d8d4aef81a3985f532.png media\images\R_curve_1_e6d8d4aef81a3985f532.png
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\R_curve_1_f0f86a6ea64e4a9d4052.png media\images\R_curve_1_f0f86a6ea64e4a9d4052.png
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\train_batch0_1_a6ebdf66fd630b1f6249.jpg media\images\train_batch0_1_a6ebdf66fd630b1f6249.jpg
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\train_batch1_1_1edab8e9d15e1d171120.jpg media\images\train_batch1_1_1edab8e9d15e1d171120.jpg
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\train_batch2_1_8e6f1fd440e6e80db02e.jpg media\images\train_batch2_1_8e6f1fd440e6e80db02e.jpg
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch0_labels_1_6330c1eec86e2ec2fb3c.jpg media\images\val_batch0_labels_1_6330c1eec86e2ec2fb3c.jpg
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch0_pred_1_5b1d3dc67ed787030579.jpg media\images\val_batch0_pred_1_5b1d3dc67ed787030579.jpg
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch1_labels_1_90c7057f2f3c098da17a.jpg media\images\val_batch1_labels_1_90c7057f2f3c098da17a.jpg
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch1_pred_1_ddc5172ddc9121c993f8.jpg media\images\val_batch1_pred_1_ddc5172ddc9121c993f8.jpg
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch2_labels_1_274d3b93a0aa48375f25.jpg media\images\val_batch2_labels_1_274d3b93a0aa48375f25.jpg
+2024-02-27 00:16:39,467 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\images\val_batch2_pred_1_21b4057d526ba8413a4b.jpg media\images\val_batch2_pred_1_21b4057d526ba8413a4b.jpg
+2024-02-27 00:16:39,468 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves\F1-Confidence(B)_table_1_a39c3fda05cbaf2f0c01.table.json media\table\curves\F1-Confidence(B)_table_1_a39c3fda05cbaf2f0c01.table.json
+2024-02-27 00:16:39,468 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves\Precision-Confidence(B)_table_1_a941372789d27f587829.table.json media\table\curves\Precision-Confidence(B)_table_1_a941372789d27f587829.table.json
+2024-02-27 00:16:39,468 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves\Precision-Recall(B)_table_1_fde7c032ee15ffb5b328.table.json media\table\curves\Precision-Recall(B)_table_1_fde7c032ee15ffb5b328.table.json
+2024-02-27 00:16:39,468 INFO    SenderThread:8880 [dir_watcher.py:finish():409] scan save: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\media\table\curves\Recall-Confidence(B)_table_1_ac0269f0e04e2cd1e78e.table.json media\table\curves\Recall-Confidence(B)_table_1_ac0269f0e04e2cd1e78e.table.json
+2024-02-27 00:16:39,468 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 10
+2024-02-27 00:16:39,468 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:39,468 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 10
+2024-02-27 00:16:39,469 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:39,469 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-02-27 00:16:39,469 INFO    SenderThread:8880 [file_pusher.py:finish():167] shutting down file pusher
+2024-02-27 00:16:40,205 INFO    wandb-upload_14:8880 [upload_job.py:push():137] Uploaded file e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\wandb-summary.json
+2024-02-27 00:16:40,208 INFO    wandb-upload_7:8880 [upload_job.py:push():137] Uploaded file e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\requirements.txt
+2024-02-27 00:16:40,287 INFO    wandb-upload_13:8880 [upload_job.py:push():137] Uploaded file e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\output.log
+2024-02-27 00:16:40,471 INFO    wandb-upload_10:8880 [upload_job.py:push():137] Uploaded file e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\files\config.yaml
+2024-02-27 00:16:40,690 INFO    Thread-11 (_thread_body):8880 [sender.py:transition_state():626] send defer: 11
+2024-02-27 00:16:40,690 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:40,690 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 11
+2024-02-27 00:16:40,690 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:40,690 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-02-27 00:16:40,690 INFO    SenderThread:8880 [file_pusher.py:join():172] waiting for file pusher
+2024-02-27 00:16:40,690 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 12
+2024-02-27 00:16:40,690 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:40,690 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 12
+2024-02-27 00:16:40,690 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:40,690 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-02-27 00:16:41,435 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 00:16:41,755 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 13
+2024-02-27 00:16:41,755 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:41,755 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 13
+2024-02-27 00:16:41,755 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:41,755 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-02-27 00:16:41,755 INFO    SenderThread:8880 [sender.py:transition_state():626] send defer: 14
+2024-02-27 00:16:41,755 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 00:16:41,755 INFO    HandlerThread:8880 [handler.py:handle_request_defer():170] handle defer: 14
+2024-02-27 00:16:41,755 DEBUG   SenderThread:8880 [sender.py:send():375] send: final
+2024-02-27 00:16:41,755 DEBUG   SenderThread:8880 [sender.py:send():375] send: footer
+2024-02-27 00:16:41,755 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: defer
+2024-02-27 00:16:41,755 INFO    SenderThread:8880 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-02-27 00:16:41,755 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-27 00:16:41,755 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: server_info
+2024-02-27 00:16:41,755 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: get_summary
+2024-02-27 00:16:41,755 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: poll_exit
+2024-02-27 00:16:41,755 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: sampled_history
+2024-02-27 00:16:41,755 DEBUG   SenderThread:8880 [sender.py:send_request():402] send_request: server_info
+2024-02-27 00:16:42,108 DEBUG   HandlerThread:8880 [handler.py:handle_request():144] handle_request: shutdown
+2024-02-27 00:16:42,108 INFO    HandlerThread:8880 [handler.py:finish():842] shutting down handler
+2024-02-27 00:16:42,763 INFO    WriterThread:8880 [datastore.py:close():298] close: e:\Python and AI\Deep Learning\Yolo\wandb\run-20240227_001520-sd382jhe\run-sd382jhe.wandb
+2024-02-27 00:16:43,118 INFO    SenderThread:8880 [sender.py:finish():1550] shutting down sender
+2024-02-27 00:16:43,118 INFO    SenderThread:8880 [file_pusher.py:finish():167] shutting down file pusher
+2024-02-27 00:16:43,118 INFO    SenderThread:8880 [file_pusher.py:join():172] waiting for file pusher

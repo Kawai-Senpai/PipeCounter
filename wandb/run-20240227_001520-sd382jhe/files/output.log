@@ -1,0 +1,34 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mNew cache created: E:\Python and AI\Deep Learning\Yolo\pipe\train\labels.cache
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+[34m[1mtrain: [39m[22mScanning E:\Python and AI\Deep Learning\Yolo\pipe\train\labels... 19 images, 0 backgrounds, 0 corrupt: 100%|██████████| 19/19 [00:00<00:00, 1084.83it/s]
+[34m[1mval: [39m[22mScanning E:\Python and AI\Deep Learning\Yolo\pipe\train\labels.cache... 19 images, 0 backgrounds, 0 corrupt: 100%|██████████| 19/19 [00:00<?, ?it/s]
+Plotting labels to runs\detect\train3\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns\detect\train3
+Starting training for 1 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+        1/1     0.705G       1.85      3.472      1.526         66        640: 100%|██████████| 10/10 [00:18<00:00,  1.90s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:01<00:00,  2.55it/s]
+                   all         19        800     0.0391      0.279      0.026      0.013
+1 epochs completed in 0.011 hours.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:00<00:00, 13.46it/s]
+Optimizer stripped from runs\detect\train3\weights\last.pt, 6.2MB
+Optimizer stripped from runs\detect\train3\weights\best.pt, 6.2MB
+Validating runs\detect\train3\weights\best.pt...
+Ultralytics YOLOv8.1.18 🚀 Python-3.11.2 torch-2.0.0+cu118 CUDA:0 (NVIDIA GeForce RTX 2060, 6144MiB)
+Model summary (fused): 168 layers, 3005843 parameters, 0 gradients, 8.1 GFLOPs
+                   all         19        800     0.0393       0.28     0.0261      0.013
+Speed: 0.7ms preprocess, 3.0ms inference, 0.0ms loss, 1.7ms postprocess per image
+Results saved to [1mruns\detect\train3
