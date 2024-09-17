@@ -2,15 +2,37 @@
 
 This project leverages YOLOv8, a state-of-the-art object detection and segmentation algorithm, to automatically detect and count pipes from images developed by [*Ranit Bhowmick*](https://www.linkedin.com/in/ranitbhowmick/) & [*Sayanti Chatterjee*](https://www.linkedin.com/in/sayantichatterjee/). The system is trained to detect various types of pipes in industrial settings and can be used for monitoring, inspection, and inventory management.
 
+### Results
+
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/val_batch1_labels.jpg" alt="Batch1 Lables" width="200"/>
-<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/val_batch1_pred.jpg" alt="Batch1 Predictions" width="200"/>
 <img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch0.jpg" alt="train_batch0" width="200"/>
 <img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch1.jpg" alt="train_batch1" width="200"/>
 <img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch2.jpg" alt="train_batch2" width="200"/>
 <img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch360.jpg" alt="train_batch360" width="200"/>
 <img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch361.jpg" alt="train_batch361" width="200"/>
 <img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch362.jpg" alt="train_batch362" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/val_batch1_labels.jpg" alt="Batch1 Lables" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/val_batch1_pred.jpg" 
+alt="Batch1 Predictions" width="200"/>
+</div>
+
+### Statistics
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/confusion_matrix_normalized.png" alt="confusion_matrix_normalized" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/labels.jpg" 
+alt="labels" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/labels_correlogram.jpg" alt="labels_correlogram" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/results.png" 
+alt="results" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/F1_curve.png" 
+alt="F1_curve" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/PR_curve.png" 
+alt="PR_curve" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/P_curve.png" 
+alt="P_curve" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/R_curve.png" 
+alt="R_curve" width="200"/>
 </div>
 
 ## Project Overview
@@ -97,6 +119,42 @@ The dataset consists of images of pipes in various environments, labeled with bo
 ## Results
 
 After training, the model achieved high accuracy in detecting pipes across a variety of test images. The final model shows a precision of **0.934** and mAP of **0.924**, making it suitable for industrial applications.
+
+
+### Results
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch0.jpg" alt="train_batch0" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch1.jpg" alt="train_batch1" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch2.jpg" alt="train_batch2" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch360.jpg" alt="train_batch360" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch361.jpg" alt="train_batch361" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch362.jpg" alt="train_batch362" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/val_batch1_labels.jpg" alt="Batch1 Lables" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/val_batch1_pred.jpg" 
+alt="Batch1 Predictions" width="200"/>
+</div>
+
+### Statistics
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/confusion_matrix_normalized.png" alt="confusion_matrix_normalized" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/labels.jpg" 
+alt="labels" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/labels_correlogram.jpg" alt="labels_correlogram" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/results.png" 
+alt="results" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/F1_curve.png" 
+alt="F1_curve" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/PR_curve.png" 
+alt="PR_curve" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/P_curve.png" 
+alt="P_curve" width="200"/>
+<img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/R_curve.png" 
+alt="R_curve" width="200"/>
+</div>
+
+
 
 ## Future Improvements
 
