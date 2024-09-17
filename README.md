@@ -3,7 +3,7 @@
 This project leverages YOLOv8, a state-of-the-art object detection and segmentation algorithm, to automatically detect and count pipes from images. The system is trained to detect various types of pipes in industrial settings and can be used for monitoring, inspection, and inventory management.
 A Project by [*Ranit Bhowmick*](https://www.linkedin.com/in/ranitbhowmick/) & [*Sayanti Chatterjee*](https://www.linkedin.com/in/sayantichatterjee/).
 
-### Results
+### Results -------------
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
 <img src="https://github.com/Kawai-Senpai/PipeCounter/blob/0ccc3ee19f419823defbd01c807a620ad004f868/results/train_batch0.jpg" alt="train_batch0" width="200"/>
@@ -17,7 +17,7 @@ A Project by [*Ranit Bhowmick*](https://www.linkedin.com/in/ranitbhowmick/) & [*
 alt="Batch1 Predictions" width="200"/>
 </div>
 
-### Statistics
+### Statistics --------------
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
 <img src="https://github.com/Kawai-Senpai/PipeCounter/blob/2555e6317e61398ff6885838317ee34ba109a195/results/confusion_matrix_normalized.png" alt="confusion_matrix_normalized" width="200"/>
