@@ -1,0 +1,6 @@
+nc: 1 # number of classes
+names: ['Pipe'] # class names
+
+path: E:\Python and AI\Deep Learning\Yolo\
+train: pipe/train/images
+val: pipe/train/images
